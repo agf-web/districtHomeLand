@@ -11,6 +11,7 @@ var panini = require("panini");
 var concat = require("gulp-concat");
 var port = process.env.SERVER_PORT || 8080;
 var nodepath = "node_modules/";
+var cleanCSS= require('gulp-clean-css');
 
 // Starts a BrowerSync instance
 gulp.task("server", ["build"], function() {
@@ -56,12 +57,13 @@ gulp.task("compile-sass", function() {
     //cssnano(),
   ];
   return gulp
-    .src("./scss/app.scss")
-    .pipe(sourcemaps.init())
-    .pipe(sass(sassOptions).on("error", sass.logError))
-    .pipe(postcss(processors))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest("./dist/css/"));
+      .src("./scss/app.scss")
+      //.pipe(sourcemaps.init())
+      .pipe(sass(sassOptions).on("error", sass.logError))
+      .pipe(postcss(processors))
+      //.pipe(sourcemaps.write())
+      .pipe(cleanCSS({compatibility: 'ie8'}))
+      .pipe(gulp.dest("./assets/css/"));
 });
 
 gulp.task("compile-html", function() {
