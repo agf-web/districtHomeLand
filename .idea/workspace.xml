@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c67d5d8-c342-480f-8220-dc83e256156d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/web/~MAT/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/TEST/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/TEST/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/TEST/thanks-contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/TEST/thanks-download.html" afterDir="false" />
+    <list default="true" id="0c67d5d8-c342-480f-8220-dc83e256156d" name="Default" comment="Remove CD from test to determine true performance">
+      <change beforePath="$PROJECT_DIR$/web/TEST/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/TEST/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/web/TEST/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="519">
-              <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+              <caret line="121" column="22" lean-forward="true" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -110,6 +107,7 @@
         <option value="$PROJECT_DIR$/build/html/layouts/default.html" />
         <option value="$PROJECT_DIR$/build/html/includes/header.html" />
         <option value="$PROJECT_DIR$/web/~MAT/index.html" />
+        <option value="$PROJECT_DIR$/web/TEST/index.html" />
       </list>
     </option>
   </component>
@@ -191,15 +189,24 @@
       <option name="presentableId" value="Default" />
       <updated>1552477820083</updated>
       <workItem from="1552477821860" duration="2050000" />
-      <workItem from="1554820946866" duration="2377000" />
+      <workItem from="1554820946866" duration="2484000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove CD from test to determine true performance">
+      <created>1554824977849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554824977849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4427000" />
+    <option name="totallyTimeSpent" value="4534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1678" height="1338" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -224,6 +231,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove CD from test to determine true performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove CD from test to determine true performance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/assets/css/app.css">
@@ -321,7 +332,7 @@
     <entry file="file://$PROJECT_DIR$/web/TEST/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
-          <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+          <caret line="121" column="22" lean-forward="true" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
         </state>
       </provider>
     </entry>
