@@ -1,5 +1,4 @@
 var gulp = require("gulp");
-var clean = require("gulp-clean");
 var sass = require("gulp-sass");
 var sourcemaps = require("gulp-sourcemaps");
 var postcss = require("gulp-postcss");
@@ -8,10 +7,11 @@ var mq4HoverShim = require("mq4-hover-shim");
 var rimraf = require("rimraf").sync;
 var browser = require("browser-sync");
 var panini = require("panini");
-var concat = require("gulp-concat");
 var port = process.env.SERVER_PORT || 8080;
 var nodepath = "node_modules/";
 var cleanCSS= require('gulp-clean-css');
+var concat = require('gulp-concat');
+var minify = require('gulp-minify');
 
 // Starts a BrowerSync instance
 gulp.task("server", ["build"], function() {
@@ -23,8 +23,8 @@ gulp.task("watch", function() {
   gulp.watch("scss/**/*", ["compile-sass", browser.reload]);
   gulp.watch("html/pages/**/*", ["compile-html"]);
   gulp.watch(
-    ["html/{layouts,includes,helpers,data}/**/*"],
-    ["compile-html:reset", "compile-html"]
+      ["html/{layouts,includes,helpers,data}/**/*"],
+      ["compile-html:reset", "compile-html"]
   );
 });
 
@@ -53,11 +53,10 @@ gulp.task("compile-sass", function() {
         "Android >= 4.4",
         "Opera >= 30"
       ]
-    }) //,
-    //cssnano(),
+    })
   ];
   return gulp
-      .src("./scss/app.scss")
+      .src("./scss/styles.scss")
       //.pipe(sourcemaps.init())
       .pipe(sass(sassOptions).on("error", sass.logError))
       .pipe(postcss(processors))
@@ -68,18 +67,18 @@ gulp.task("compile-sass", function() {
 
 gulp.task("compile-html", function() {
   gulp
-    .src("html/pages/**/*.html")
-    .pipe(
-      panini({
-        root: "html/pages/",
-        layouts: "html/layouts/",
-        partials: "html/includes/",
-        helpers: "html/helpers/",
-        data: "html/data/"
-      })
-    )
-    .pipe(gulp.dest("dist"))
-    .on("finish", browser.reload);
+      .src("html/pages/**/*.html")
+      .pipe(
+          panini({
+            root: "html/pages/",
+            layouts: "html/layouts/",
+            partials: "html/includes/",
+            helpers: "html/helpers/",
+            data: "html/data/"
+          })
+      )
+      .pipe(gulp.dest("dist"))
+      .on("finish", browser.reload);
 });
 
 gulp.task("compile-html:reset", function(done) {
@@ -87,9 +86,16 @@ gulp.task("compile-html:reset", function(done) {
   done();
 });
 
+//gulp.task('scripts', function() {
+//    return gulp.src(['assets/js/**/*.js'])
+//        .pipe(concat('app.js'))
+//        .pipe(minify())
+//       .pipe(gulp.dest('./assets/js'));
+//});
+
 // Copy assets
 gulp.task("copy", function() {
-    gulp.src(["assets/**/*"]).pipe(gulp.dest("dist"));
+  gulp.src(["assets/**/*"]).pipe(gulp.dest("dist"));
 });
 
 
@@ -97,6 +103,7 @@ gulp.task("build", [
   "clean",
   "compile-sass",
   "compile-html",
+  //"scripts",
   "copy"
 ]);
 gulp.task("default", ["server", "watch"]);

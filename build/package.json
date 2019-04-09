@@ -5,19 +5,20 @@
   "main": "Gruntfile.js",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "browser-sync": "^2.24.4",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^4.0.0",
-    "gulp-concat": "^2.6.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
     "gulp-postcss": "^6.1.0",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "jquery": "~3",
     "mq4-hover-shim": "^0.3.0",
-    "panini": "^1.3.0",
-    "popper.js": "^1.14.3",
-    "rimraf": "^2.5.2"
+    "panini": "^1.6.3",
+    "popper.js": "^1.14.7",
+    "rimraf": "^2.6.3"
   },
   "engines": {
     "node": ">=0.10.1"
@@ -36,5 +37,8 @@
   },
   "author": "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "npm": "^6.8.0"
+  }
 }
