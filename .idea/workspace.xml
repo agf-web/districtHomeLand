@@ -1,69 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c67d5d8-c342-480f-8220-dc83e256156d" name="Default" comment="Reverting back">
+    <list default="true" id="0c67d5d8-c342-480f-8220-dc83e256156d" name="Default" comment="Getting ready to relaunch things">
+      <change afterPath="$PROJECT_DIR$/build/assets/img/hero-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-relaunch/img/hero-original.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CAR/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CAR/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CAR/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CAR/thanks-download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CFL/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CFL/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CFL/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/CFL/thanks-download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCF/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCF/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCF/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCF/thanks-download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCV/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCV/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCV/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/FCV/thanks-download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/NWF/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/NWF/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/NWF/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/NWF/thanks-download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/PDF/FarmCredit.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/ehl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/hero-fall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/icon_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/icon_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/icon_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/icon_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/icon_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-ach.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-cfl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-fcf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-fcv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-fcvOLD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-mat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo-nwf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/img/mockup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-backup/tile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~ACH/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~ACH/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~ACH/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~ACH/thanks-download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/thanks-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/~MAT/thanks-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-arb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-cfl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-col.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-fcf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-fcv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-fcvOLD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo-nwf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/hero-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/hero-c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/img/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/logo-ach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/logo-fcvOLD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/logo-mat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ACH/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ACH/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ACH/thanks-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ACH/thanks-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ARB/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/ARB/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ARB/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/ARB/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ARB/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/ARB/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/ARB/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/ARB/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CAR/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CAR/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CAR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CAR/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CAR/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CAR/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CAR/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CAR/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CFL/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CFL/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CFL/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CFL/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CFL/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CFL/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/CFL/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/CFL/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/COL/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/COL/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/COL/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/COL/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/COL/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/COL/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/COL/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/COL/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCF/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCF/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCF/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCF/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCF/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCF/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCF/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCV/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCV/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCV/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCV/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCV/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCV/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/FCV/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/FCV/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/MAT/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/MAT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/MAT/thanks-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/MAT/thanks-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/NWF/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/NWF/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/NWF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/NWF/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/NWF/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/NWF/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/NWF/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/NWF/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/PDF/FarmCredit.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/PDF/FarmCredit.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/TEST/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/TEST/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/TEST/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/TEST/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/TEST/thanks-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/TEST/thanks-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/TEST/thanks-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/TEST/thanks-download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/humans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/humans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/ehl.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/ehl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/hero-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/hero-c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/icon_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/icon_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/icon_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/icon_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/icon_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/icon_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/icon_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/icon_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/icon_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/icon_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/icon_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/icon_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/logo-ach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/logo-fcv.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/img/logo-fcv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/logo-fcvOLD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/logo-mat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-relaunch/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/web-relaunch/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ACH/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ACH/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ACH/thanks-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ACH/thanks-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MAT/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MAT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MAT/thanks-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MAT/thanks-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/logo-ach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/logo-fcvOLD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/logo-mat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/logo.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,22 +117,104 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="10" />
+          <entry key="jpg" value="4" />
+          <entry key="png" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="10" />
+          <entry key="Image" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="501" />
+          <entry key="txt" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="501" />
+          <entry key="PLAIN_TEXT" value="32" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-relaunch/ACH/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/ARB/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-515" />
+            <state relative-caret-position="188">
+              <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/CAR/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="65" column="28" selection-start-line="64" selection-start-column="16" selection-end-line="69" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/CFL/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="67" column="121" selection-start-line="67" selection-start-column="121" selection-end-line="67" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/img/hero.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/img/logo-col.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/assets/img/hero.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/img/hero-original.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/COL/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="67" column="99" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/FCF/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="67" column="113" selection-start-line="67" selection-start-column="113" selection-end-line="67" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-relaunch/FCV/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="67" column="119" selection-start-line="67" selection-start-column="119" selection-end-line="67" selection-end-column="119" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -135,6 +250,13 @@
         <option value="$PROJECT_DIR$/web/~MAT/index.html" />
         <option value="$PROJECT_DIR$/web/TEST/index.html" />
         <option value="$PROJECT_DIR$/build/html/layouts/default.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/ARB/index.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/CAR/index.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/CFL/index.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/COL/index.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/FCF/index.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/FCV/index.html" />
+        <option value="$PROJECT_DIR$/web-relaunch/NWF/index.html" />
       </list>
     </option>
   </component>
@@ -157,8 +279,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="876" />
-    <option name="y" value="55" />
+    <option name="x" value="649" />
+    <option name="y" value="40" />
     <option name="width" value="1678" />
     <option name="height" value="1338" />
   </component>
@@ -176,17 +298,6 @@
             <path>
               <item name="districtHomeLand" type="b2602c69:ProjectViewProjectNode" />
               <item name="districtHomeLand" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="districtHomeLand" type="b2602c69:ProjectViewProjectNode" />
-              <item name="districtHomeLand" type="462c0819:PsiDirectoryNode" />
-              <item name="web-relaunch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="districtHomeLand" type="b2602c69:ProjectViewProjectNode" />
-              <item name="districtHomeLand" type="462c0819:PsiDirectoryNode" />
-              <item name="web-relaunch" type="462c0819:PsiDirectoryNode" />
-              <item name="ACH" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +346,7 @@
       <workItem from="1552477821860" duration="2050000" />
       <workItem from="1554820946866" duration="2991000" />
       <workItem from="1554998140684" duration="120000" />
-      <workItem from="1564093854271" duration="381000" />
+      <workItem from="1564093854271" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="Remove CD from test to determine true performance">
       <created>1554824977849</created>
@@ -251,15 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554825069528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Getting ready to relaunch things">
+      <created>1564094297622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564094297622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5542000" />
+    <option name="totallyTimeSpent" value="6425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="876" y="55" width="1678" height="1338" extended-state="0" />
-    <editor active="true" />
+    <frame x="649" y="40" width="1678" height="1338" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591687" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -291,7 +408,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove CD from test to determine true performance" />
     <MESSAGE value="Reverting back" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverting back" />
+    <MESSAGE value="Getting ready to relaunch things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting ready to relaunch things" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/assets/css/app.css">
@@ -404,6 +522,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-515" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ACH/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/NWF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="67" column="123" selection-start-line="67" selection-start-column="123" selection-end-line="67" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/FCV/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="67" column="119" selection-start-line="67" selection-start-column="119" selection-end-line="67" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/FCF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="67" column="113" selection-start-line="67" selection-start-column="113" selection-end-line="67" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/COL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="67" column="99" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/ARB/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/CAR/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="65" column="28" selection-start-line="64" selection-start-column="16" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/CFL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="67" column="121" selection-start-line="67" selection-start-column="121" selection-end-line="67" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/img/hero-original.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/img/hero-c.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/img/logo-fcvOLD.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/img/hero.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-relaunch/img/logo-col.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/assets/img/hero.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
