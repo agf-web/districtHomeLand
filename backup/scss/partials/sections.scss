@@ -235,31 +235,8 @@ ul li {
 
 /* Testimonials */
 
-.content-download .content-heading h2,
-.content-testimonials .content-heading h2 {
+.content-download .content-heading {
   color: #5b8f22;
-}
-
-.content-testimonials blockquote {
-  font-size: 2em;
-  font-style: italic;
-  margin-bottom: 1em;
-}
-
-.content-testimonials .author,
-.content-testimonials .company {
-  display: block;
-  font-family: "Futura PT", "futura-pt", Helvetica, sans-serif;
-  font-style: normal;
-}
-
-.content-testimonials .author {
-  color: #5b8f22;
-  font-weight: 700;
-}
-
-.content-testimonials .company {
-  font-weight: 400;
 }
 
 /* Footer */
@@ -290,3 +267,29 @@ ul li {
     text-align: center;
   }
 }
+
+
+/* Overrides for brands who don't use FC Green */
+.agc {
+  
+  .hero-secondary h1,
+  .content-download .content-heading {
+    color: #47A04E;
+  }
+
+  .footer {
+      background-color: #47A04E;
+  }
+
+  .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
+    background-color: #588d32;
+    border-color: #588d32;
+  }
+
+}
+
+
+
+
+
+

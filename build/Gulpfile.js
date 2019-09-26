@@ -21,7 +21,6 @@ gulp.task("server", ["build"], function() {
 
 // Watch files for changes
 gulp.task("watch", function() {
-  gulp.watch("scss/**/*", ["compile-sass", browser.reload]);
   gulp.watch("html/pages/**/*", ["compile-html"]);
   gulp.watch(
       ["html/{layouts,includes,helpers,data}/**/*"],
@@ -32,38 +31,6 @@ gulp.task("watch", function() {
 // Erases the dist folder
 gulp.task("clean", function() {
   rimraf("dist");
-});
-
-var sassOptions = {
-  errLogToConsole: true,
-  outputStyle: "expanded",
-  includePaths: [nodepath + "bootstrap/scss/"]
-};
-
-gulp.task("compile-sass", function() {
-  var processors = [
-    mq4HoverShim.postprocessorFor({ hoverSelectorPrefix: ".bs-true-hover " }),
-    autoprefixer({
-      browsers: [
-        "Chrome >= 45",
-        "Firefox ESR",
-        "Edge >= 12",
-        "Explorer >= 10",
-        "iOS >= 9",
-        "Safari >= 9",
-        "Android >= 4.4",
-        "Opera >= 30"
-      ]
-    })
-  ];
-  return gulp
-      .src("./scss/styles.scss")
-      //.pipe(sourcemaps.init())
-      .pipe(sass(sassOptions).on("error", sass.logError))
-      .pipe(postcss(processors))
-      //.pipe(sourcemaps.write())
-      .pipe(cleanCSS({compatibility: 'ie8'}))
-      .pipe(gulp.dest("./assets/css/"));
 });
 
 gulp.task("compile-html", function() {
@@ -102,7 +69,6 @@ gulp.task("copy", function() {
 
 gulp.task("build", [
   "clean",
-  "compile-sass",
   "compile-html",
   //"scripts",
   "copy"
