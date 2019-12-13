@@ -39,6 +39,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "npm": "^6.8.0"
+    "npm": "^6.13.4"
   }
 }
